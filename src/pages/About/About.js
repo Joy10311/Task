@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
             <h1 className='text-5xl font-bold text-center text-red-400 py-10'>Who We Are</h1>
-            <div className='grid grid-cols-2 mx-20'>
+            <div className='grid lg:grid-cols-2 mx-20'>
   
                <div>
                     <h3 className='text-4xl font-semibold py-5'>Serving the area for over 40 years</h3>
@@ -22,7 +22,7 @@ const About = () => {
             </div>
 
 
-            <div className='grid grid-cols-2 mt-20 pb-10 bg-gray-300'>
+            <div className='grid lg:grid-cols-2 mt-20 pb-10 bg-gray-300'>
             <img src="https://i.ibb.co/hX79J6w/about-2-946x628.jpg" alt="" />
                 <div className='ml-10 mx-5'>
                 <h3 className='text-4xl font-semibold py-5'>Serving the area for over 40 years</h3>

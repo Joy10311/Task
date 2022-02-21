@@ -27,7 +27,7 @@ const Header = () => {
 
                  <Link to="/services" className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-2xl font-medium">Services</Link>
 
-                 <Link to="/" className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-2xl font-medium">Blog</Link>
+                 <Link to="/contact" className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-2xl font-medium">Contact Us</Link>
 
                  <Link to="/about" className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-2xl font-medium">About Us</Link>
 
@@ -95,9 +95,9 @@ const Header = () => {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link to="/home" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
+              <Link to="/services" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Services</Link>
+              <Link to="/contact" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Contact Us</Link>
               <Link to="/about" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
-              <Link to="/home" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
-              <Link to="/home" className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
                   
               </div>
             </div>

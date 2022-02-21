@@ -11,7 +11,7 @@ const Details = () => {
     return (
         <div className='mt-10'>
 
-            <div className='grid grid-cols-2 mx-10 mb-10'>
+            <div className='grid lg:grid-cols-2 mx-10 mb-10'>
                 <div>
                     <img src={man_logo} alt="" />
                 </div>

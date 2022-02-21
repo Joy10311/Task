@@ -4,7 +4,6 @@ import logo1 from '../../../image/men-women.svg'
 import logo2 from '../../../image/nav-box.svg'
 import logo3 from '../../../image/plane.svg'
 import logo4 from '../../../image/truck.svg'
-import Form1 from '../../Order/Form1/Form1';
 import Details from '../Details/Details';
 
 
@@ -12,7 +11,7 @@ import Details from '../Details/Details';
 const Home = () => {
     return (
        <div>
-            <div className='mt-20 mx-10 grid grid-cols-2 mb-20'>
+            <div className='mt-20 mx-10 grid lg:grid-cols-2 mb-20'>
             <div>
                 <h1 className='text-6xl py-5 font-semibold'>Quick Transport and Logistics Solution</h1>
                 <p className='text-2xl py-10'>We provide services in the field of road, sea, rail, air transportation and a full range of warehousing services.</p>
@@ -33,8 +32,6 @@ const Home = () => {
         </div>
 
         <Details/>
-
-        <Form1></Form1>
 
        </div>
     );
